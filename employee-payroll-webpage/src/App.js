@@ -1,12 +1,8 @@
-import logo from './logo.svg';
-// import './App.css';
-import EmployeePayrollDashboard from './components/EmployeePayrollDashboard/EmployeePayrollDashboard';
+import RoutingModule from './Routing/RoutingModule';
 
 function App() {
   return (
-    // <div className="App">
-      <EmployeePayrollDashboard />
-    // </div>
+   <RoutingModule />
   );
 }
 
