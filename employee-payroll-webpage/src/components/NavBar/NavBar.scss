@@ -1,46 +1,19 @@
-body{
-    background-color: #000000;
-}
-.emp-dash-header{
-    display: flex;
-    background: #FFFFFF;
-    align-items: center;
-    margin:-1rem;
-    padding: -1rem;
+.navbar{
     position: fixed;
-    height: 5rem;
-    z-index: 1000;
 }
-.emp-dash-header-cnt{
-    top: 0rem;
-    left: 0rem; 
-    display: flex;
-    position: fixed;
-    background-color: #ffffff;
-    width: 100%;
+.navbar-container {
+    width: 100vw;
     height: 9.81vh;
-    flex-direction: column;
-    padding: 0.6rem 1% 0.5% 8%;
-    opacity: 100;
-}
-.emp-dash-header-logo img{
-    margin-top: 0.2rem;
-
-}
-.emp-dash-header-title{
+    background: #FFFFFF;
     display: flex;
-    flex-direction: column;
-    text-align: left;
-    margin-left: 3rem;
-    margin-top: -2.6rem;
+    align-items: center;
+    padding: 0 8%;
 }
-.emp-dash-header-employee{
-    margin-left: -0.3125rem;
-    color:  #82A70C;
-    font-weight: bold;
+.navbar-employee-payroll {
+    margin-left: 0.5rem;
+    color: #82A70C;
+    font: normal normal bold 16px/19px Montserrat;
 }
-.emp-dash-header-payroll{
-    font-weight: bold;
+.navbar-brPayroll {
     color: #42515F;
-    margin-left: -0.3125rem;
 }

@@ -22,4 +22,5 @@ code {
 body, html{
   width: 100%;
   overflow-x: hidden;
+  background-color: #F7F7F7;
 }

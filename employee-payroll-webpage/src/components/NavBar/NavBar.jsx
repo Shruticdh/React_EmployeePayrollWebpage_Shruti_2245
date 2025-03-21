@@ -1,25 +1,23 @@
-import React, { Component } from 'react'
-import Img from '../../assets/Logo.jpg'
-import './NavBar.scss'
+import React, { Component } from "react";
+import Img from "../../assets/Logo.jpg";
+import "./NavBar.scss";
 
 export class NavBar extends Component {
   render() {
     return (
-      <div className="emp-dash-page">
-          <header className="emp-dash-header">
-            <div className="emp-dash-header-cnt">
-                <div className="emp-dash-header-logo">
-                    <img src={Img} alt="logo"/>
-                </div>
-                <div className="emp-dash-header-title">
-                    <span className="emp-dash-header-employee">EMPLOYEE</span>
-                    <span className="emp-dash-header-payroll">PAYROLL</span>
-                </div>
-            </div>
-        </header>
-      </div>
-    )
+      <nav className="navbar">
+        <div className="navbar-container">
+          <div>
+            <img src={Img} alt="Company Logo" />
+          </div>
+          <div className="navbar-employee-payroll">
+            <div>EMPLOYEE</div>
+            <div className="navbar-brPayroll">PAYROLL</div>
+          </div>
+        </div>
+      </nav>
+    );
   }
 }
 
-export default NavBar
+export default NavBar;
